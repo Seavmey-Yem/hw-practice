@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+.service {
+    display: flex;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 10%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1)
+}
+
+button {
+    border-radius: 10px;
+    background: teal;
+    border: none;
+    padding: 5px;
+    color: white
+}
+
+.cards {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 5px;
+    margin: 15px;
+    font-family: sans-serif;
+    background: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
